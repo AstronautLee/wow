@@ -1,0 +1,63 @@
+.nav{
+    overflow: hidden;
+}
+.sk {
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    padding: 0 15px;
+    border-left: 1px solid #c81523;
+}
+.sk_list{
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a{
+    display: block;
+    line-height: 47px;
+    padding: 0 14px;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+}
+.sk_con{
+    float: left;
+    margin-left: 50px;
+}
+.sk_con ul li{
+    float: left;
+}
+.sk_con ul li a{
+    display: block;
+    line-height: 49px;
+    padding: 0 15px;
+    font-size: 14px;
+}
+.sk_con ul li:last-child a::after{
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.sk_hd{
+    height: 120px;
+    background: url(../upload/bg_03.png) no-repeat;
+}
+.sk_bd ul{
+    overflow: hidden;
+}
+.sk_bd ul li{
+    float: left;
+    margin-right: 13px;
+    width: 290px;
+    height: 460px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    /* 这里为了不抖一开始要有透明边框 */
+}
+.sk_bd ul li:hover{
+    border: 1px solid #c81523;
+}
+.sk_bd ul li:nth-child(4n){
+    margin-right: 0;
+}
